@@ -12,7 +12,7 @@
 
 % the front matter
 \input{frontmatter/coverpage}
-\maketitle
+\maketitle         %cover and inside cover
 \copyrightpage
 \abstractpage
 \tableofcontents
@@ -22,6 +22,15 @@
 \acknowledgments
 
 \onehalfspacing
+
+\pagestyle{fancy}            % head and foot marks, including pages
+\fancyhf{}
+\fancyhead[RE]{\rightmark}
+\fancyhead[LO]{\leftmark}
+\fancyfoot[LE]{{\LARGE \bf \thepage} \hspace{15pt} 
+.....................................................................................................................................................................}
+\fancyfoot[RO]{
+..................................................................................................................................................................... \hspace{15pt} {\LARGE \bf \thepage}}
 
 \include{chapters/chapter1}
 \include{chapters/chapter2}
@@ -33,7 +42,6 @@
 
 \singlespacing
 
-% the back things
 \clearpage
 \bibliographystyle{unsrt}
 \bibliography{references}       

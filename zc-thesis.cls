@@ -1,7 +1,7 @@
 % -------------------------------------------------------------------
 %  @LaTeX-class-file{
 %     filename        = "zc-thesis.cls",
-%     version         = "0.4z",
+%     version         = "2017Jan12",
 %     date            = "Feb 2017",
 %     codetable       = "ISO/ASCII",
 %     keywords        = "LaTeX, zc-thesis",
@@ -11,7 +11,7 @@
 
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesClass{zc-thesis}
-\LoadClass[12pt, oneside, letterpaper]{book}
+\LoadClass[12pt, twoside, a4paper,openright]{book}
 
 
 % Required packages
@@ -20,10 +20,10 @@
 \hypersetup{
 	linktocpage,
     colorlinks,
-    citecolor=Crimson,
+    citecolor=Red,
     filecolor=black,
     linkcolor=black,
-    urlcolor=Crimson,
+    urlcolor=Red,
 }
 
 \RequirePackage[centertags]{amsmath}
@@ -33,12 +33,11 @@
 \RequirePackage[tight,nice]{units}
 \RequirePackage{verbatim}
 \usepackage{xspace}
-%zccccccccccccccccccccccccccccccccccccccccc packages
-\RequirePackage{mhchem} %chemistry
+\RequirePackage{mhchem} %for chemistry cccccccccccccccccccccccccccccccccccccccccccccccccccccccc
 
 % colors
 \RequirePackage{color}
-\definecolor{Crimson}{rgb}{0.6471, 0.1098, 0.1882}
+\definecolor{Red}{rgb}{0.6, 0.1, 0.1}
 
 \RequirePackage{url}
 \RequirePackage[titles]{tocloft}
@@ -54,10 +53,6 @@
 \usepackage[closeFloats, noSeparatorLine]{fltpage} %use the custom modified fltpage package
 \RequirePackage{afterpage} 
 
-
- 
-
-
 \synctex=1 % turn synctex on automatically to sync between pdf viewer [andy]
 
 %   list an entire bibliography entry inline. Useful for acknowledging when my paper was previously published
@@ -65,7 +60,8 @@
 \nobibliography*        
 
 \RequirePackage{lettrine} % big letter at start of chapter
-\RequirePackage[width=5in, letterpaper]{geometry}
+% tsukuba university cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+\RequirePackage[headheight=10mm, top=40mm, bottom=28mm, inner=28mm,outer=22mm, a4paper]{geometry}
 
 \RequirePackage{fancyhdr} 
 \pagestyle{plain} % options: empty , plain , fancy
@@ -132,45 +128,69 @@ BoldItalicFont=ArnoPro-BoldItalic
 \def\universitycity#1{\gdef\@universitycity{#1}}
 \def\universitystate#1{\gdef\@universitystate{#1}}
 
-
+% cover and inside cover for University of Tsukuba by zccccccccccccccccccccccccccccccccccccccccc
+%cover
 \renewcommand{\maketitle}{ 
 	\singlespacing
-	\thispagestyle{empty}
-	\vspace*{\fill} \vspace{150pt} \begin{center}
-	\Huge \textcolor{Crimson}{\textit{\thetitle}} \normalsize \\ \sc \vspace{100pt}
-	a dissertation presented \\ by\\
-	\theauthor\\ to\\ The \@department\\ 
-	\vspace{12pt}
-	in partial fulfillment of the requirements\\ 
-	for the degree of\\ \@degree\\ 
-	in the subject of\\ \@field\\
-	\vspace{12pt}
-	\@university\\ \@universitycity, \@universitystate\\ 
+	\pagestyle{empty}
+    \vspace*{\fill}
+    \centering
+    \LARGE \textcolor{black}{\thetitle} \Large \\ %\sc 
+    \vspace{60pt}
+	%a dissertation presented \\ by\\
+	\theauthor\\ %to\\ The \@department\\ 
+	\vspace{270pt}
+	%in partial fulfillment of the requirements\\ 
+	%for the degree of\\ \@degree\\ 
+	%in the subject of\\ \@field\\
+	%\vspace{12pt}
+	%\@university\\ \@universitycity, \@universitystate\\ 
 	\@degreemonth\ \@degreeyear
-	\end{center} \vspace*{\fill}
+ 
+ %inside cover
+ \clearpage
+    \vspace*{\fill}
+	\LARGE \textcolor{black}{\thetitle} \Large \\ %\sc 
+	\vspace{60pt}
+	\theauthor\\ %to\\ The \@department\\ 
+	%\vspace{12pt}
+	(Doctoral Program in \@field)\\
+	\vspace{150pt}
+	Submitted to the Graduate School of\\
+	\@department\\
+	in Partial Fulfillment of the Requirements\\
+	for the Degree of \@degree in\\
+	\@field\\
+	\vspace{30pt}
+	at the\\
+	\@university\\
+ \vspace*{\fill}\normalsize
 }
 
 \newcommand{\copyrightpage}{
+    \doublespace 
 	\newpage \thispagestyle{empty} \vspace*{\fill}
-	%\sc \noindent \copyright~\textit{\@degreeyear \hspace{3pt}~- \theauthor} \\
+	%\sc 
+	\raggedright
+	\noindent \copyright~\textit{\@degreeyear \hspace{3pt} \textcolor{Red}{\theauthor}} \\
 	%\noindent All rights reserved.\\[10ex]
 	\input{frontmatter/copyrightpage}
 	\vspace*{\fill} \newpage \rm
 }
 
 \newcommand{\abstractpage}{
-	\newpage
+	\chapter*{Abstract}
 	\pagenumbering{roman}
-	\setcounter{page}{3}
+	\setcounter{page}{5}
 	\pagestyle{fancy}
-%	\lhead{Thesis advisor: \@advisor} \rhead{\@author}
-    \setlength{\headheight}{20pt}     %fixed problem Sept14 for headlight
+	\lhead{Thesis advisor: Prof. \@advisor} \rhead{ \@author}
+    %\setlength{\headheight}{20pt}     %fixed problem Sept14 for headlight % delete this line to fix margin problem Jan12
 	\renewcommand{\headrulewidth}{0pt} 
 	\begin{center}
 	\vspace*{1pt}
-	\Large \textcolor{Crimson}{\textit{\@title}} \normalsize\\
+	\Large \textcolor{Red}{\textit{\@title}} \normalsize\\
 	\vspace{15pt}
-	\sc Abstract \\ \rm
+	%\sc Abstract \\ \rm
 	\end{center}
 	\doublespace %Might change to double spaced
 	\input{frontmatter/abstract}
@@ -182,6 +202,7 @@ BoldItalicFont=ArnoPro-BoldItalic
 
 \newcommand{\dedicationpage}{
 	\pagestyle{fancy}
+	\doublespace 
 	\newpage \thispagestyle{fancy} \vspace*{\fill}
 	\sc \noindent \input{frontmatter/dedication}
 	\vspace*{\fill} \newpage \rm
@@ -201,6 +222,7 @@ BoldItalicFont=ArnoPro-BoldItalic
 \newcommand{\acknowledgments}{
 	\chapter*{Acknowledgments}
 	\noindent
+	\doublespace 
 	\input{frontmatter/thanks}
 	\vspace*{\fill} 
 	\newpage
@@ -209,5 +231,5 @@ BoldItalicFont=ArnoPro-BoldItalic
 	
 % An environment for paragraph-style section
 \providecommand\newthought[1]{%
-   \addvspace{1.0\baselineskip plus 0.5ex minus 0.2ex}%
+   \addvspace{1.0\baselineskip plus 0.8ex minus 0.5ex}%
    \noindent\textsc{#1}}

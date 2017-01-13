@@ -1,78 +1,79 @@
-%update: more Dec28
+%update: Jan 13 add figure 4ways
+%update: Jan 09-11 prof check
+%update: finish writing Dec 30
 %note: image 4waysprobe is not here
 
-\begin{savequote}[75mm] 
-We become what we behold. We shape our tools, and thereafter our tools shape us.
-\qauthor{Marshall McLuhan} 
-\end{savequote}
+%\begin{savequote}[75mm] 
+%We become what we behold. We shape our tools, and thereafter our tools shape us.
+%\qauthor{Marshall McLuhan} 
+%\end{savequote}
 
 \chapter{Engineering of Probing Techniques inside TEM}
 
-\newthought{We are not satisfied with the limited possibilities provided by TEM}, and we are eager to introduce more variable to the system because that's how we see dynamics in the real applications.
-In the following subsections, I will firstly introduce how we cooperate chemicals, light, mechanical manipulations and electrical interaction to the microscopy. 
-Especially for the new optical fiber compatible TEM, where all the four factors could be included, the inside and outside part of the \emph{in situ} microscopy is detailed described. 
-Finally we will take a look at the what the system can do and its short-backs. 
+\newthought{We are not satisfied with the limited possibilities provided by TEM}, and we are eager to introduce more variables to the system because that is how we see dynamics in the real applications.
+In the following subsections, I will firstly introduce how we cooperate chemicals, light, mechanical manipulations and electrical interactions within the microscopic experiment. 
+Especially for the new optical fiber compatible TEM, where all the four factors could be merged, the inside and outside parts of the \emph{in situ} microscopic setup are described in detail. 
+Finally I will take a look at the what the system can do and its short-comings. 
 
 %before us, stm tem holder
 \section{Introducing chemicals, electricity, strain into the microsocpe}
 
-As we discussed in Chapter 1, \emph{in situ} microscopy does introduce parameters such as heat, cooling, gas, liquid, etc. to the system, but now we focus on how we introduce these variables in the delicate microscope. In most cases, {\em in situ} microscopy are performed by specially designed TEM holders, such as heating holder equiped with heating electrical wire or MEMS microheater. At the same time, some researchers make adaptions on microscope to introduce the variables. In my Ph.D. research, expect electron beam, four more variables are introduced: chemicals (solid), mechanical probing, electrical contact and optical access. \\
+As I discussed in Chapter 1, \emph{in situ} microscopy does introduce parameters such as heat, cooling, gas, liquid, etc. to the system, but now I focus on how we delicately introduce these variables into the  microscope. In most cases, {\em in situ} microscopic experiments are performed by means of specially designed TEM holders, such as heating holder equipped with heating electrical wire or MEMS microheater. At the same time, some researchers made adaptions to the  microscope to introduce other variables. In my Ph.D. research, in addition to the electron beam, four more variables are introduced: chemicals (solid), mechanical probing, electrical contacting and optical access. \\
 
-For electrical biasing, many TEM holders are commercially available. This holder provides a combination of TEM and Scanning Tunneling Microscopy(STM) techniques, which are used simultaneously in one instrument for the TEM characterization, STM imaging, introducing chemicals and electrical mesurements. The STM probe scanner have a very wide range of motion from picometers to millimeters, which is employed either for a coarse adjustment of the sample orientation, or a precise probe positioning. \\
+For electrical biasing, many TEM holders are commercially available. Such holders provide a combination of TEM and Scanning Tunneling Microscopy(STM) techniques, which are employed simultaneously within one instrument. TEM characterization, STM imaging, introducing chemicals and electrical measurements- all become possible. The STM probe scanner has a very wide range of motions, from picometers to millimeters, which are employed either for a coarse adjustment of the sample orientation, or for a precise probe positioning. \\
 
-Electrical contacts with nanoscaled interfaces can be realized at will by precise positioning the movable probe in the desired spot, enabling simultaneous investigating of the specimen’s structural and electronic conduction properties with the optional strain or chemicals.\\
+Electrical contacts with nanoscaled interfaces can be realized under precise positioning of the movable probe to the desired spot, enabling simultaneous investigation of the specimen’s structural and electronic  properties with the optional strain or chemical transitions.\\
 
-If the electrical biasing is realized by piezo probing, we can also ultilize the probe for introducing chemical (solid on probe) and mechanical strain (without force value measurement\footnote{It is possible to combine atomic force microscopy into TEM holder to introduce mechanical measurements, but the probe cannot be used for electrical biasing anymore.}). \\
+If the electrical biasing is realized through piezo probing, we can also utilize the probe for introducing chemical (solid on probe) and mechanical strain (without force value measurement\footnote{Introducing atomic force microscopy into TEM holder for mechanical measurements is another important {\em in situ} method without electrical biasing functions.}). \\
 
-I briefly discussed the ways to input chemical, electrical biasing and mechanical factors in TEM; However, introducing the other factor -- light -- to the system is challenging. Therefore I will discuss this part, which is very good reference for future research, in next section. 
+I briefly discussed the ways to input chemical, electrical biasing and mechanical factors in TEM. However, introducing  the other variable - light - to the system is challenging. Therefore I will discuss this part separately, which would be a very good reference for future research, in the next section. 
 
 \section{Introducing light into the microscope}
 \subsection{Previously}
-Introducing the other factor -- light -- to the system while at the same time maintain the other factors is very tricky. Some researchers and companies tried to introduce light without probing. This means that no introduce of chemicals, electricity and mechanics. We may first investigate how they introduce/collect light to/from the microscope. 
-Table \ref{table2.1} compare the two possible ways to implement light into the system. 
+Introducing the other factor - light - to the system, while at the same time maintaining the impact from other factors, is very tricky. Some researchers and companies tried to introduce light without probing. This means that no introduction of chemical changes, electricity and mechanics was achieved. We may first investigate how they introduce/collect light to/from the microscope. 
+Table \ref{table2.1} compares the two possible ways to implement light into the system. 
 
 \begin{table}[ht]
 \centering 
 \begin{tabular}{|c|c|} 
 \hline 
-by adaption on microscope & by using special holder \\ [0.5ex] 
+by adaption to the microscope & by using special holder \\ [0.5ex] 
 \hline 
 light plane different from specimen & on same plane with specimen \\[1.5ex] 
 require take off detector/aperture & a specially designed holder \\[1.5ex]
-optics can be realized by lens on bench & only optical fiber\footnote{For the moment only optical fiber, but it is possible to have lens system inside the holder, please read chapter 7 for more information.} \\[1.5ex]
-complicated, high power, high cost & no addaption to TEM\\[1.5ex]
+optics can be realized by lens on bench & only optical fiber\footnote{For the moment only optical fiber, but it is possible to have lens system inside the holder, please read Chapter 7 for more information.} \\[1.5ex]
+complicated, high power, high cost & no adaption to TEM\\[1.5ex]
 \hline
 \end{tabular}
 \caption{Two main ways to implement light into a TEM} 
 \label{table2.1} 
 \end{table}
 
-As shown in the table, by replacing an aperture or making a window for optical path locate the light path tilted. The light goes trough the microscope shell at different level from the specimen plane. In some cases, it is possible to replace a detector or an aperture by desired modules to provide variables. As shown in Figure \ref{fig:2_1} With a certain angle, the light can hit the specimen. The system could be very complicated if optics are realized by lens system on optical bench including light sources, lens system and options such as CCD camera, chopper and monochromator. The system can be very powerful if the optical system on table is well designed and precisely assembled. However, the cost of time and funding is also expected to be significant. \\
+As shown in the Table, by replacing an aperture or making a window for optical path the light path becomes tilted. The light goes through the microscope body at the different level from the specimen plane. In some cases, it is possible to replace a detector or an aperture by desired modules to provide more variables. As shown in Figure \ref{fig:2_1} under a certain angle, the light can reach the specimen. The system could be very complicated if the optics is realized through lens system on optical bench including light sources, lens system and options such as CCD camera, chopper and monochromator. The system can be very powerful if the optical system on table is well designed and precisely assembled. However, the pressure of time and high cost are expected to be very significant. \\
 
 \begin{figure}  
 \centering
-\includegraphics[width=270pt]{figures/figure2_1}
-\caption[To put light into TEM.]{How light is compatible to TEM.
+\includegraphics[width=320pt]{figures/figure2_1}
+\caption[Putting light into TEM.]{How light is compatible to TEM.
 \label{fig:2_1}}
 \end{figure}
 
-For a special optical holder, the way is to install an optical fiber through the holder, as shown in Figure \ref{fig:2_1}, the light will be shinning on the specimen at about 90 degrees to the electron beam. In most cases, the microscope is owned by many users for various applications, and therefore the approach of using special optical holder is more practical -- it's quite luxury to drill a hole and install a optical bench on the microscope with everybodies' permission. 
+For a special optical holder, one way is to protrude an optical fiber through the holder, as shown in Figure \ref{fig:2_1}, the light will be shinning on the specimen at about 90 degrees to the direction of the electron beam. In most cases, the microscope is owned by many users for various applications, and therefore the approach of using special optical holder is more practical - it's quite unpractical to drill a hole in the microscope column and to install an optical bench on the microscope (given the fact that not every user will be happy with such operations). 
 
-A few groups have tried to take light into TEM. \\
+A few groups have tried to deliver light into TEM. \\
 
-Muto et al. (Kyushu University) managed to install optical fiber trough a 2 mm hole at an angle of 45 degrees.\cite{Tanabe2002,Furumoto2013} They manufactured the prototype of TEM-CL system with the light collecting parts integrated on the holder, but no parabolic reflector within the pole piece. The system is able to take cathodoluminescence(CL), X-ray emission spectroscopy and Electron Energy Loss Spectroscopy(EELS) at the same time, even with large angle sample tilt. The main disadvantage of the holder was a significant background level from the thermal glow of the electron gun and the CL signal of optical fiber. Later, Muto et al. and staff from {\em Nanofactory Instruments} developed a prototype optical holder implemented with an optical fiber through holder, on the side of specimen. The reflectors and optical fiber are placed away from the TEM optical axis. The light-collecting solid angle is approximately 1.3 strad, approximately 100 times larger than that of their first generation prototype. The sample is mounted at the end of the metal wire, of which the position can be controlled to the focal point of the mirror by the piezo-driven manipulator. In years 2012-2013, a few groups, including us, got optical holder (beta version) from {\em Nanofactory Instruments}. \\
+Muto et al. (Kyushu University) managed to install an optical fiber through a 2 mm hole at an angle of 45 degrees.\cite{Tanabe2002,Furumoto2013} They manufactured the prototype of TEM-CL system with the light collecting parts integrated on the holder, but no parabolic reflector was needed within the pole piece. The system is able to take cathodoluminescence(CL), X-ray emission spectroscopy and Electron Energy Loss Spectroscopy(EELS) at the same time, even under large angle sample tilts. The main disadvantage of the holder was a significant background level from the thermal glow of the electron gun and the CL signal from the optical fiber. Later, Muto et al. and staff from {\em Nanofactory Instruments} developed a prototype optical holder implemented with an optical fiber through the holder, on the side of a specimen. The reflectors and optical fiber are placed away from the TEM optical axis. The light-collecting solid angle is approximately 1.3 strad, approximately 100 times larger than that of their first generation prototype. The sample is mounted at the end of the metal wire, which  position can be controlled to the focal point of the mirror by the piezo-driven manipulator. In years of 2012-2013, a few groups, including us, secured the optical holder (beta version) from {\em Nanofactory Instruments}. \\
 
-One of the group is in Brookhaven National Laboratory. Yimei Zhu et al. obtained prototype optical holder from {\em Nanofactory} which allows two optical fibers and several delicate mirrors to locate light beam to the specimen. 
-The multimodal optical nanoprobe allows scientists to perform all the usual experiments done in a TEM in addition to those involving optical excitation and measurement of the sample, electrical measurements on the sample, STM and combinations of these measurements. They emphasized the ability to simultaneously measure optical and electrical properties of the sample at nanoscale.\cite{Zhu2012Multimodal}  The factors introduced are very similar to our case, but their serious problems are about the calibration of location of light spot, which is realized by the adjustment of the tiny mirror screws; also, they are not able to confirm the location of light spot. Therefore the system is not so practical. \\
+One of the groups is in Brookhaven National Laboratory. Yimei Zhu et al. obtained the prototype optical holder from {\em Nanofactory} which allows for two optical fibers and several delicate mirrors to locate the light beam to the specimen. 
+The multimodal optical nanoprobe allows scientists to perform standard experiments natural for TEM in addition to those involving optical excitation and measurements on the sample, including electrical measurements, STM and combinations of those. They emphasized the ability to simultaneously measure optical and electrical properties of the sample at the nanoscale.\cite{Zhu2012Multimodal}  The operations introduced are very similar to our case, but their serious problems were related to the calibration of light spot location, which is realized by the adjustment of the tiny mirror screws; also, they were not able to confirm the location of light spot. Therefore the system was not that practical. \\
 
-Minor and Grigoropoulos et al. have implemented a {\em in situ} TEM monitoring technique to observe the crystallization of a-Si during high power pulsed laser irradiation by directly coupling laser into a TEM through a fiber-optic probe. By realizing a near-field
-scanning optical microscopy (NSOM) fiber probe scheme, this technique opens up a wide variety of new characterization possibilities.\cite{Xiang2012}
+Minor et al. have implemented a {\em in situ} TEM monitoring technique to observe the crystallization of a-Si during high power pulsed laser irradiation by directly coupling laser into a TEM through a fiber-optics probe. By realizing a near-field scanning optical microscopy (NSOM) fiber probe scheme, this technique opens up a wide variety of new characterization possibilities.\cite{Xiang2012}
 
-Kociak et al. in Université Paris-Sud \cite{Zagonel2011} developed STEM-CL system on Nion microscope which also using optical fiber as light guide from the microscope column to the CCD camera outside the microscope. The light is collected by a specially designed mirror system of which the focus point is on specimen. This CL-STEM imaging can be applied to obtaining luminescence spectra and imaging ultrastructure simultaneously.\cite{DOI: 10.1039/c6nr01908k}
+Kociak et al. of the Université Paris-Sud \cite{Zagonel2011} developed a STEM-CL system on Nion microscope which also uses an optical fiber as a light guide from the microscope column to the CCD camera outside the microscope. The light is collected by a specially designed mirror system of which the focus point is on the specimen. This CL-STEM imaging can be applied to obtaining luminescence spectra and imaging the structure simultaneously.\cite{Nagarajan2016Simultaneous}
 
-In another group, Miller in Prof. Crozier's group in Arizona State University replaced EDS detector (first version) or objective aperture (second version on FEI Titan microscope) by an optical fiber and its associates to shine light onto chemicals to observe dynamics of photochemistry.\cite{Miller2012} But the problem is that they are not sure about the location of light spot, because they cannot observe the optical fiber which is out of the specimen plane. 
+In another group, Miller in Prof. Crozier's group in Arizona State University replaced the EDS detector (first version) or objective aperture (second version on FEI Titan microscope) with an optical fiber to shine a light onto chemicals to observe dynamics of photochemical reactions.\cite{Miller2012} But the problem was that they had not been sure about the location of the light spot, because they could not observe it.
 
-To conclude, by introducing light into TEM, researchers are capable to observe dynamics of photochemistry or thermo-effects, to obtain high resolution CL with EELS and Dark field imaging simultaneously. As summarized in Talbe \ref{table2.2}, almost all groups used optical fiber for introducing light rather than lens system on bench, most groups does not offer probing contact capability. In my case (NIMS in table), I would like to reach all functions based on the optical holder. 
+To conclude, by introducing light into TEM, these days the researchers are capable to observe dynamics of photochemical processes or thermo-effects, and to simultaneously obtain high resolution CL with EELS and Dark field imaging. As summarized in Table \ref{table2.2}, almost all groups used optical fibers for introducing light rather than lens system on bench, whereas most groups do not offer probing contacts capabilities. In my case (NIMS in Table), I would like to realize all these functions based on the redesigned optical holder. 
 
 \begin{table}[ht]
 \centering 
@@ -93,34 +94,129 @@ NIMS & Yes & holder direct & Yes & all above\\
 \end{table}
 
 \subsection{Our holder adaption}
-In our system, the microscope is not modified at all, we are very much putting all dynamics through the specimen holder. I proposed 4 sed ways to add electrical access on the piezo-driven optical fiber based on the Nanofactory optical holder, as shown in Figure \ref{fig:4modes}. One way is to 
-%%%%%%%%%%get the image!!
+To choose between the fiber technology and the breadboard, it is necessary to define the objectives and a budget. 
+A honeycomb core breadboard is complex and powerful to customize optical input/output parameters with high precision. 
+However, building of an optical system on a honeycomb core breadboard could be costly. 
+At least one optical window should be opened on the body of microscope so as to transmit an aligned laser beam into the chamber, and to collect optical signal from the chamber. 
+In contrast, by using an optical fiber, a laser light could be easily introduced into the microscope without breaking the TEM body. 
+The solution is to make a continuous hole through a special TEM holder so as to insert an optical fiber in it. The former {\em Nanofactory Instruments AB} developed a holder for our Laboratory with a 250 micrometer pipeline. 
 
-Considering the fact that attaching a probe onto the piezotube driven hat would enable more dynamics possible to our microscopy, I finally decided to chose the plan to drill hole on side of hat to attach a probe on while at the same time coating gold onto the fiber tip to reduce charging of fiber during electron beam exposure. 
+In our system, the microscope is not modified at all, and we integrate all the experimental dynamics through the specimen holder. 
 
-For nanostructures, sampling is a little bit easier, the sampling can be attached to the gold wire tip by touching, pressing, dipping or dropping. For thicker samples, the specimens can be made by FIB technique on to a half grid. 
+The front frame of the special holder was placed into the 4 mm gap of the TEM pole
+piece. And with the optical fiber inserted, the light connection between the TEM chamber and the outer space was realized. 
 
+To develop the whole system based on the regarded general idea, the two issue for the setup should be of our prime concern. One issue is the inner TEM side – how to place the samples, how to design the fiber tip, how to operate and apply/test electrical signals on the samples. The other side is the outer TEM side – board development, space for light source and signal processing.  
 
-\subsection{Outside the microscope}
-The individual coaxial wiring in the holder for each contact gives pA noise levels during these measurements, allowing to measure low currents in non-ohmic contacts.
+\begin{figure}  
+\centering
+\includegraphics[width=320pt, angle=-90]{figures/figure2_4ways}
+\caption[Proposed four ways of holder adaption]{Four ways I proposed to introduce probing to optical holder.
+\label{fig:4ways}}
+\end{figure}
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\textcolor{red}{
+I proposed 4 ways to add electrical access on the piezo-driven optical fiber based on the \textit{Nanofactory} optical holder, as shown in Figure \ref{fig:4ways}. 
+The four ways are: \\
+\begin{itemize}
+	\item[a)] To build separated arms on the frame and place sample across the arms (which can be very difficult) where it can be also illuminated; 
+	\item[b)] To drill a hole on original cap, or make a new hat with two holes to install an additional probe; 
+	\item[c)] Based on design b), one end of a gold wire can be placed on electrical pad by wire bonding machine, the other end of wire can be manipulated to make contact with the specimen, therefore in total three electrodes applications are possible; 
+	\item[d)] To coat conductive metal onto the surface (cross section is not coated) of optical fiber (which is marked by yellow), the coating conducts the end (edge) of fiber with the cap (an electrode); 
+\end{itemize}
+It is not limited by these four ways. Combinations of a) and b), or a) and d) are also possible. By building arm(s), installing probe(s), bonding wire(s) and coating conductors, probing can be introduced to the optical holder. 
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Considering the fact that attaching a probe onto the piezotube driven hat would enable more dynamic options available for our microscopy, I finally decided to drill a hole on side of the hat and to attach an additional metallic probe to the hat, while at the same time to coat gold onto the fiber tip to reduce fiber charging during its exposure to the electron beam. 
+
+\begin{figure}  
+\centering
+\includegraphics[width=\textwidth]{figures/figure2_holderframe}
+\caption[Inner part of the holder]{The part of holder inside pole-piece of TEM to illustrate geometrical relationship between sample stage, probe, fiber and electron beam.
+\label{fig:2_frame}}
+\end{figure}
+
+For nanostructures, sampling is rather easy, the samples can be attached to the gold wire tip by touching, pressing, dipping or dropping, so that they could finally be exposed to an electron beam.
+However, the optoelectronic {\em in situ} system could be more complex. The fiber tip inside TEM is clamped by a specialized cap which is driven by a XYZ-piezo controller. A tungsten probe for manipulation and electrical contacting is attached on the specialized cap manually. \\
+Therefore, the sample is exposed to the electron beam and light, while at the same time it is controlled and connected by the stage (gold wire) and the tungsten probe. \\
+
+For thicker samples, the specimens can be made by using a FIB technique or a half TEM grid may be used. 
+The alignment of a sample, a fiber tip and the probe is quite important whereas rather difficult. If the fiber tip is far away from the sample, then the light will be divergent; which means that the power intensity of light could be reduced in progression. Since the tungsten probe will approach and connect the sample, the fiber tip should be as close as possible to the probe also. 
+
+In Figure \ref{fig:2_frame}, an image shows the geometrical relationship between the sample stage, probe, the fiber tip and electron beam. 
+
+\subsection{Outer part of the microscope}
+The individual coaxial electrical wiring through the holder for each contact gives pA level noises during the electrical measurements, allowing to measure low currents in Ohmic and non-Ohmic contact conditions. 
+
+\begin{figure}  
+\centering
+\includegraphics[width=\textwidth]{figures/figure2_holderbot}
+\caption[Outside of holder]{The holder has several I/O ports for {\em in situ} mechanical, electrical and optical access.
+\label{fig:2_bot}}
+\end{figure}
+
+As shown in Figure \ref{fig:2_bot}, the holder has several ports for electrical, mechanical and optical signals to go in and out. 
+The mechanical wire is at the downside, which is connected to the holder controller. 
+The two electrical wires on top are connected to various electrical units depending on applications. 
+At the bottom of the holder, optical fiber goes through and may serve as either light source or light detector depending on application. 
+
+A Lock-in amplifier is used to extract a signal with an understandable carrier wave from a relatively noisy background. 
+Because the light signal or photocurrent signal produced from a nanoscaled structure could be quite weak, detecting the signal against a bright noise could be accomplished while using such amplifier. 
+For example, to detect the photocurrents as a function of wavelength of incident beam one can apply a strong white light source, a chopper, a monochromator, a low-noise amperemeter and a lock-in amplifier. 
+
+\begin{figure}
+\centering
+\includegraphics[width=\textwidth]{figures/figure6_1}
+\caption[Optoelectronic {\em in situ} TEM scheme]{Optoelectronic {\em in situ} TEM scheme with two different light sources. }
+\label{fig:6_1}
+\end{figure}
+
+The optical {\em in situ} TEM system has been developed and optimized during the last few years. It is now multi-functional: 
+As shown in Figure \ref{fig:6_1}: the white light source and monochromator are used together with the chopper and lock-in amplifier to measure the photocurrents as a function of wavelength. The laser diodes and wave signal generator are used together with the lock-in amplifier to measure photocurrents and photovoltages at a certain wavelength. 
+
+The final system is fully compatible with both the laser light source and other light sources such us  Lazer-Driven Light Source used by us. Usually, the white light source is utilized in tandem with a monochromator. 
 
 \section{Applications and limitations}
 \subsection{Applications}
- The interface morphology, the contact area and orientation, the material crystallography, all of these factors can be precisely determined with high resolution microscopy, while a bias and a light applied on sample and probe allows to measure the electronic and optoelectronic conductive state of the contact. 
- 
-On the opposite way, by collecting optical signal from specimen through optical fiber, spatial resolved CL information is measured to be correlated to the crystallography information. 
-This means that the 
+ The interface morphology, the contact area and orientation, the material crystallography, all of these factors can precisely be determined under high resolution microscopy, while a bias and a light applied onto the sample and probe allows for measuring the electronic and optoelectronic responses. 
 
 \begin{figure}  
-\includegraphics[width=400pt]{figures/figure2_apply}
-\caption[Relationships between factors and applications.]{Relationships between factors and applications. Important dynamics are marked by yellow, some applications are marked by red, which will be detailed discussed in other chapters.
+\centering
+\includegraphics[width=370pt]{figures/figure2_fourmodes}
+\caption[Four modes]{Four modes of light-compatible {\em in situ} TEM.
+\label{fig:2_fourmodes}}
+\end{figure}
+
+Four modes were designed for different purposes. These modes are demonstrated in Figure \ref{fig:2_fourmodes}.
+The first mode is the conventional STM-TEM mode, which allows for controlling, measuring and observing a nanostructure. This mode is used to manipulate with structures and to observe the samples for detailed imaging, including high-resolution imaging and diffraction analysis. 
+The system is also capable for applying chemical functions to the specimen for electrochemical experiments inside TEM. 
+
+The second mode is thought to be the most effective mode. Photocurrent and photovoltage could be measured in addition to the conventional STM-TEM mode.
+However, in order to get rid of the influence of electron beam on the sample, electron beam should often be moved away from the sample when measuring.
+The third mode is the CL mode. The optical signal could be obtained through the fiber tip when one applies an electron beam to the structures. Also electrical biasing or current flow are optional in this mode.
+The fourth mode is the photoluminescence mode. The interference is only happened when two coherent waves are superimposed. 
+
+On the opposite way, by collecting the optical signal from a specimen through the optical fiber, spatially resolved CL information can be gained and correlated to the crystallography information. 
+This means that the %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{figure}  
+\includegraphics[width=\textwidth]{figures/figure2_apply}
+\caption[Relationships between factors and applications.]{Relationships between factors and applications. Important dynamics is marked by yellow, some applications are marked by red, which will be detailed in other chapters.
 \label{fig:2_apply}}
 \end{figure}
 
-In Figure \ref{fig:2_apply}, the relationships between each factors are clearly presented. The applications of our light-compatible probing {\em in situ} TEM are not restricted to optoelectronics, flexible electronics/optoelectronics and lithium/sodium ion batteries, which are detailed discussed in chapters 3-6. More fields such as research topics on CL, PL, photovoltaic and photochemistry applications are expected to be explored. 
-
+In Figure \ref{fig:2_apply}, the relationships between each factors are presented. The applications of our light-compatible probing {\em in situ} TEM are not restricted to optoelectronics, flexible electronics/optoelectronics and lithium/sodium ion batteries, which are detailed discussed in Chapters 3-6. More fields, such as a research on CL, PL, photovoltaic and photochemistry applications are expected to be explored in the nearest future. 
 
 \subsection{Limitations}
-First, the system is based on TEM, therefore most limitations of TEM also applied to our system; that is, the sampling requirement is high, the sampling efficiency is low, TEM imaging is 2D information, and electron beam may damage the specimen. 
+First, the system is based on TEM, therefore all limitations of TEM are also applied to our system; that is, the sampling requirement is strict, the sampling efficiency is low, TEM imaging gives only 2D information, and electron beam may either damage the specimen, or interfere the experiment. 
 
+Secondly, the incident beam is limited by the properties of the optical fiber and the light source. The optical fiber is not easy to replace, and is not recommended to do this frequently. But the optical fibers always have their own band pass windows for light, as well as maximum power limitations. 
+For special requirements, for example, for UV/NIR light experiments proper UV/NIR light source and proper UV/NIR fiber are required, the polarization of light needs a special optical fiber, etc. 
+
+Thirdly, the mechanical force is not measurable. Even though I list mechanics as one factor of the system, the mechanical information is quite limited and is only related to the manipulation. In fact, we are able to see the strain (and then evaluate the force by simulations, at least qualitatively) based on deviations on 2D TEM images or diffraction patters, but we are not able to measure detailed force values or strain/stress distributions directly. 
+
+However well designed experiments and professional manipulations can get eliminate, or, at least, reduce the burden of the limitations mentioned above. 

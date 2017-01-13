@@ -1,19 +1,22 @@
-%update: Dec 29 rewrite all. 
+%update: Jan 13 gramma corrections undergoing...
+%update: Jan 09-11 prof check
+%update: Jan 03 rewrite all. 
+%update: Dec 29 rewrite two parts. 
 %update: Nov 21 citation done , figure done. 
 %update: Nov 10 by zc, add more text(slightly edited), uploaded and compiled all figures. 
 %update: Nov 09 by professor, rewrite the first half of text. 
 
-\begin{savequote}[75mm] 
-I am somewhat exhausted; I wonder how a battery feels when it pours electricity into a non-conductor?
-\qauthor{Sherlock Holmes (Arthur Conan Doyle)} 
-\end{savequote}
+%\begin{savequote}[75mm] 
+%I am somewhat exhausted; I wonder how a battery feels when it pours electricity into a non-conductor?
+%\qauthor{Sherlock Holmes (Arthur Conan Doyle)} 
+%\end{savequote}
 
-\chapter{\emph{In situ} TEM electrical probing for ultrastable sodium ion batteries}
+\chapter{\emph{In situ} TEM Electrical Probing for Ultrastable Sodium Ion Batteries}
 
-\newthought{Sodium-ion batteries (SIBs)}, as an important alternative for future energy storage, have been on stage since 1980s. Among many anode materials, elemental phosphorus (P) has attracted most of the interest in recent years because of  large theoretical capacity, i.e. 2596 $mAh/g$. The prime disadvantage, however, of a P anode is its poor conductivity and fast structural degradation due to volume expansion, as much as $>$490$\%$, over working cycles. To address this issue, I redesigned the anode structure via fabricating a flexible paper made of amorphous P and N-doped graphene. The as-fabricated anode delivers ultrastable characteristics and superb rate capability, 809 $mAh/g$ at 1500 $mA/g$. The extraordinary structural integrity of this new anode was then studied via \emph{in situ} experiments inside a high-resolution transmission electron microscope (HRTEM), thereby the cyclic dynamics and sodiation/desodiation mechanisms were thoroughly understood. To confirm my experimental results, Density Functional Theory (DFT) calculations were additionally performed to indeed confirm that the N-doped graphene contributes to an increase in capacity for Na storage, and to an improved anode rate performance.
+\newthought{Sodium-ion batteries (SIBs)}, as an important alternative for future energy storage, have been on stage since 1980s. Among many anode materials, elemental phosphorus (P) has attracted most of the interest in recent years because of large theoretical capacity, i.e. 2596 mAh/g. The prime disadvantage, however, of a P anode is its poor conductivity and fast structural degradation due to volume expansion, as much as >490\%, over working cycles. To address this issue, I redesigned the anode structure via fabricating a flexible paper made of amorphous P and N-doped graphene. The as-fabricated anode delivers ultrastable characteristics and superb rate capability, 809 mAh/g at 1500 mA/g. The extraordinary structural integrity of this new anode was then studied via \emph{in situ} experiments inside a high-resolution transmission electron microscope (HRTEM), thereby the cyclic dynamics and sodiation/desodiation mechanisms were thoroughly understood. To confirm my experimental results, Density Functional Theory (DFT) calculations were additionally performed to indeed confirm that the N-doped graphene contributes to an increase in capacity for Na storage, and to an improved anode rate performance.
 
 \section{Introduction}
-Sodium ion batteries (SIBs) are receiving considerable attention and have bright expectations as one of the most promising alternatives to lithium ion batteries (LIBs) for energy storage.\cite{Ren2014c,Yang2011c,Liu2014a,Wen2014b,Shen2015b,wang2014e,Wu2014b,Yao2015b,Ni2014b} Both battery types possess analogous chemistry, but SIBs are cheaper because of more abundant sodium natural resources. In the recent reports, the cathode performance in SIBs was found to be comparable with that of the LIBs.\cite{Sun2014b,Barpanda2014b} However, such performance is still the major constraint for the immediate practical applications. There have been an increasing interest in developing high-power and high-capacity anode materials for the next generation SIBs,\cite{Ong2011b,Palomares2012b,Zhu2014b,Yu2014b,Berthelot2011b,Qian2012d,Wang2013g,Komaba2011b,Cao2012b,Wang2013h,Xu2013b,Qian2012e} such as transition metal oxides,\cite{Zhu2014b,Yu2014b,Berthelot2011b} Prussian blue analogues,\cite{Qian2012d,Wang2013g} hard carbon materials,\cite{Komaba2011b}, nanowires,\cite{Cao2012b} graphene,\cite{Wen2014b,Wang2013h}, tin composite, \cite{Xu2013b} and antimony-based materials,\cite{Qian2012e} but their specific capacities are still not competitive for future applications(<800 mAh/g). \\
+Sodium ion batteries (SIBs) are receiving considerable attention and have bright expectations as one of the most promising alternatives to lithium ion batteries (LIBs) for energy storage.\cite{Ren2014c,Yang2011c,Liu2014a,Wen2014b,Shen2015b,wang2014e,Wu2014b,Yao2015b,Ni2014b} Both battery types possess analogous chemistry, but SIBs are cheaper because of more abundant sodium natural resources. In the recent reports, the cathode performance in SIBs was found to be comparable with that of the LIBs.\cite{Sun2014b,Barpanda2014b} However, the performance is still not good enough for the immediate practical applications. There have been an increasing interest in developing high-power and high-capacity anode materials for the next generation SIBs,\cite{Ong2011b,Palomares2012b,Zhu2014b,Yu2014b,Berthelot2011b,Qian2012d,Wang2013g,Komaba2011b,Cao2012b,Wang2013h,Xu2013b,Qian2012e} such as transition metal oxides,\cite{Zhu2014b,Yu2014b,Berthelot2011b} Prussian blue analogues,\cite{Qian2012d,Wang2013g} hard carbon materials,\cite{Komaba2011b}, nanowires,\cite{Cao2012b} graphene,\cite{Wen2014b,Wang2013h}, tin composite, \cite{Xu2013b} and antimony-based materials\cite{Qian2012e}, but their specific capacities are still not competitive for future applications(<800 mAh/g). \\
 
 \begin{figure}  
 \includegraphics[width=\textwidth]{figures/figure4_s1}
@@ -22,7 +25,7 @@ Sodium ion batteries (SIBs) are receiving considerable attention and have bright
 \label{fig:4_s1}}
 \end{figure}
 
-Among the hottest materials, elemental phosphorus (P) is one of the most attractive candidates with an ultra-high theoretical capacity of 2596 mAh/g\footnote{All capacities mentioned though the thesis are calculated based on the weight of composites.},\cite{Qian2013b,Kim2013c,Li2013c} i.e. about seven times higher than that of the commercial graphite anode in LIBs. The key challenge associated with a phosphorus anode is its rapid structural degradation caused by huge volume change (>490\%) under cycling. For conventional crystalline phosphorus (Figure \ref{fig:4_s1}), upon Na insertion, the P crystals are pulverized and thus the electrode film surface cracks (as a result of ~200-500\% volumetric expansion), leading to phosphorous peeling off from the current collector, which, in turn, gives a significant performance fading. So, stabilizing or sustaining the rigidness of the phosphorus anode structure during cycling is the practical key toward the improvement of the cycling performance of a P-based SIB anode. Very recently, notable breakthroughs have been witnessed in stabilizing anode structure through a design of amorphous P/carbon hybrids.\cite{Qian2013b,Kim2013c,Li2013c} For example, Qian et al. reported that the amorphous P/C hybrids prepared under high-energy mechanical milling had demonstrated a considerable capacity retention of 68\% after 60 cycles at the current density of 250 mA/g.\cite{Qian2013b} Kim et al. demonstrated that a similar amorphous P/C structure is able to deliver as high as 80\% reversible capacity and less than 7\% capacity fading after 30 cycles at a current density of 143 mA/g.\cite{Kim2013c} In addition, Chou et al. fabricated a composite anode via simple hand-grinding of commercial microsized red phosphorus and carbon nanotubes (CNTs); this demonstrated a high capacity retention of 76.6\% over 10 cycles.\cite{Li2013c} The improvements in cycling stability in the regarded reports were indeed remarkable, however, capacity retentions of less than 80\% still indicate that further developments are still needed in order to meet the practical requirements.\cite{Luo2015b}\\
+Among the hottest materials, elemental phosphorus (P) is one of the most attractive candidates with an ultra-high theoretical capacity of 2596 mAh/g\footnote{All capacities mentioned though the thesis are calculated based on the weight of composites.},\cite{Qian2013b,Kim2013c,Li2013c} i.e. about seven times higher than that of the commercial graphite anode in LIBs. The key challenge associated with a phosphorus anode is its rapid structural degradation caused by huge volume change (>490\%) under cycling. For conventional crystalline phosphorus (Figure \ref{fig:4_s1}), upon Na insertion, the P crystals are pulverized and thus the electrode film surface cracks (as a result of ~200-500\% volumetric expansion), leading to phosphorus peeling off from the current collector, which, in turn, gives a significant performance fading. So, stabilizing or sustaining the rigidness of the phosphorus anode structure during cycling is the practical key toward the improvement of the cycling performance of a P-based SIB anode. Very recently, notable breakthroughs have been witnessed in stabilizing anode structure through a design of amorphous P/carbon hybrids.\cite{Qian2013b,Kim2013c,Li2013c} For example, Qian et al. reported that the amorphous P/C hybrids prepared under high-energy mechanical milling had demonstrated a considerable capacity retention of 68\% after 60 cycles at the current density of 250 mA/g.\cite{Qian2013b} Kim et al. demonstrated that a similar amorphous P/C structure is able to deliver as high as 80\% reversible capacity and less than 7\% capacity fading after 30 cycles at a current density of 143 mA/g.\cite{Kim2013c} In addition, Chou et al. fabricated a composite anode via simple hand-grinding of commercial microsized red phosphorus and carbon nanotubes (CNTs); this demonstrated a high capacity retention of 76.6\% over 10 cycles.\cite{Li2013c} The improvements in cycling stability in the regarded reports were indeed remarkable, however, capacity retentions of less than 80\% still indicate that further developments are still needed in order to meet the practical requirements.\cite{Luo2015b}\\
 
 \begin{figure}  
 \centering
@@ -33,7 +36,7 @@ Among the hottest materials, elemental phosphorus (P) is one of the most attract
 \end{figure}
 
 \begin{figure}  
-\includegraphics[width=320pt, angle=-90]{figures/figure4_1}
+\includegraphics[width=340pt, angle=-90]{figures/figure4_1}
 \caption[Layered structure design]
 {(a) Illustrative scheme of the designed layered anode structure. (b) SEM image of the cross section of a P@GN paper, the inset shows its paperlike appearance. (c) HRTEM image and the corresponding FFT pattern of the P@GN portion confirming its amorphous structure. d-e) P2p and N1s XPS spectra of P@GN. N2 and N3 represent pyrrolic N and pyridinic N, respectively. 
 \label{fig:4_1}}
@@ -46,7 +49,7 @@ To obtain a stable P-based Na-ion battery anode having high capacity retention a
 Thus in this Chapter, I show that the above-mentioned three key features of the amorphous P@GN structure endows the large-volume-change anode with a superb capacity retention (>85\% over 350 cycles), outstanding cycle stability (0.002\% decay per cycle from 2nd to 350th cycle), and excellent rate capability (809 mAh/g at 1500 mA/g). Most importantly, state-of-the-art {\em in situ} probing experiments in HRTEM and supporting theoretical calculations finally uncover the key advantages of the present design and ensure the future developments of the P-based high-performance SIB anode structures, while getting deep insights into the associated atomistic mechanisms. 
 
 \begin{figure}  
-\includegraphics[width=320pt,angle=0]{figures/figure4_s3}
+\includegraphics[width=370pt,angle=0]{figures/figure4_s3}
 \caption[Layered structure design]
 {a) Schematic illustration of an individual P nanocrystals@G (P NCs@G) nanosheet prototype sodium battery device fabricated under {\em in situ} TEM. b) TEM image of the nano-SIB at the initial stage. c-d) Time-dependent TEM images and SAED patterns of sodiated P NCs@G nanosheet upon sodiation at 5 s and 120 s. e) The schematic illustration of the 1st sodiation-desodiation process of P@GN nanosheet. Red arrows indicate the shrinkage, while blue arrows indicate particles peeled off. Scale bars: 200 nm. 
 \label{fig:4_s3}}
@@ -56,9 +59,9 @@ Thus in this Chapter, I show that the above-mentioned three key features of the 
 %from main text.
 Amorphous P@GN paper was prepared by a designed "phase-transformation" route. Bulk red P was heated to form P4 vapors in a sealed ampule, which were adsorbed and deposited within the inter-layers of GN; it changed back into amorphous red P after condensation.\cite{Roth1947b} Thus, a butter-bread-like structure composed of flexible conductive GN layers and thin amorphous red P layers between them was fabricated (Figure \ref{fig:4_1}b). 
 %from SI.
-Synthesis of P@GN. Graphene oxide (GO) suspension used in this work was prepared via a modified method. 50 mg of graphene oxide was loaded in a ceramic boat in a tube furnace followed by its heat treatment at 600 degrees Celsius for 1.5 hours in a gas mixture of NH3 and Ar (1:2 vol/vol) under a total flow rate of 150 ml/min. Commercial red phosphorus was dispersed in water and put into a Teflon-lined stainless autoclave. The autoclave was heated to 200 degrees Celsius and maintained for 12 h to remove surface oxides. As-prepared N-doped graphene (GN) products were properly mixed together with the pretreated red phosphorus powder, and sealed in an ampule in an inert Ar atmosphere. The sealed reactors were thermally treated at 500 degrees Celsius for 1 hour and then at 280 degrees Celsius for several hrs in the furnace, before natural cooling to room temperature. The final product was washed with CS2, water and methanol, and then dried at 60 degrees.\\
+Synthesis of P@GN: Graphene oxide (GO) suspension used in this work was prepared via a modified method. 50 mg of graphene oxide was loaded in a ceramic boat in a tube furnace followed by its heat treatment at 600 degrees Celsius for 1.5 hours in a gas mixture of NH3 and Ar (1:2 vol/vol) under a total flow rate of 150 ml/min. Commercial red phosphorus was dispersed in water and put into a Teflon-lined stainless autoclave. The autoclave was heated to 200 degrees Celsius and maintained for 12 h to remove surface oxides. As-prepared N-doped graphene (GN) products were properly mixed together with the pretreated red phosphorus powder, and sealed in an ampule in an inert Ar atmosphere. The sealed reactors were thermally treated at 500oC for 1 h and then at 280oC for several hrs in the furnace, before natural cooling to room temperature. The final product was washed with CS2, water and methanol, and then dried at 60oC.\\
 
-Characterization. TEM images were taken with a 300 kV JEOL 3000F microscope. Samples were first dispersed in ethanol and then collected using carbon-film-covered copper grids. To avoid possible electron beam effects (such as radiolysis or sputtering damage of both Na-containing species and graphene lattice) the beam intensity was minimized. Scanning electron microscopy (SEM) images were recorded on a Hitachi S4800 electron microscope operating at 15 kV. XRD patterns were taken on a Philips X Pert PRO MPD X-ray diffractometer operated at 35 kV and 45 mA with Cu Kα radiation. XPS measurements were carried out on an ESCALab220i-XL spectrometer by using a twin-anode Al Ka (1486.6 eV) X-ray source. All the spectra were calibrated to the binding energy of C 1s peak at 284.6 eV. The background pressure was ~3 x 10-7 Pa. Raman spectra were collected on a Horiba Jobin-Yoon T6400 Raman spectrometer.\\
+Characterization: TEM images were taken with a 300 kV JEOL 3000F microscope. Samples were first dispersed in ethanol and then collected using carbon-film-covered copper grids. To avoid possible electron beam effects (such as radiolysis or sputtering damage of both Na-containing species and graphene lattice) the beam intensity was minimized. Scanning electron microscopy (SEM) images were recorded on a Hitachi S4800 electron microscope operating at 15 kV. XRD patterns were taken on a Philips X Pert PRO MPD X-ray diffractometer operated at 35 kV and 45 mA with Cu Kα radiation. XPS measurements were carried out on an ESCALab220i-XL spectrometer by using a twin-anode Al Ka (1486.6 eV) X-ray source. All the spectra were calibrated to the binding energy of C 1s peak at 284.6 eV. The background pressure was ~3 x 10-7 Pa. Raman spectra were collected on a Horiba Jobin-Yoon T6400 Raman spectrometer.\\
 Electrochemical tests: The electrochemical properties of P@GN and P NCs@G samples were studied using a 2032-type coin cell on a Hokudo Denko Charge/Discharge apparatus. The working electrode was prepared by directly pressing a piece of sample onto the Cu mesh current collector. Na metal foil was selected as the reference and counter electrode. The electrolyte was 1 M NaPF6 in ethyl carbonate (EC) and diethyl carbonate (DEC) ($EC : DEC = 1 : 1 vol/vol$). The cells were assembled in a glove box filled with a pure argon gas.\\ 
 Construction of individual prototype P@GN (P NCs@G)-based SIB. In situ TEM observations were conducted in a JEOL-3100 FEF equipped with an Omega filter and a {\em Nanofactory Instruments} STM-TEM holder. In order to build up the test cell, an individual P@GN or P NCs@G nanosheets were attached to the fresh-cut flattened Au wire, which was then attached to the piezo-manipulator. A small piece of Na foil was placed to another Au wire as a reference and counter electrode. Before insertion of the holder into the TEM column, a piece of Na foil covered with a Na2O layer was placed on the surface of metal Au tip. Then isolated P@GN or P NCs@G samples were chosen for direct electrochemical tests. Under the following delicate piezo-driven TEM mechanical manipulations the two electrodes were connected and the probe cell was finally constructed. The sodiation was carried out at a negative bias in the range of -2 V to 0 V with respect to the Na metal.\\
 DFT calculations. The first principle calculations were carried out using the Vienna ab initio simulation package (VASP),\cite{Kresse1996} where projected-augmented-wave (PAW) potential was adopted.\cite{Kresse1999} The functional of Perdew, Burke, and Ernzerhof (PBE) and the generalized gradient approximation (GGA)\cite{Perdew1996} were employed in the calculations. We used a $3\times3\times1$ mesh in the irreducible Brillouin zone for structure relaxation and $6\times6\times1$ mesh for self-consisted calculations. In all the calculations the forces were relaxed to the values lower than 0.02 eV per angstrom.
@@ -130,7 +133,7 @@ This is especially meaningful for future secondary battery choice. Sodium batter
 \begin{figure}  
 \includegraphics[width=400pt,angle=-90]{figures/figure4_2}
 \caption[Performance of P@GN SIB]
-
+{
 (a) Cyclic capacity and Coulombic efficiency of P@GN at 200 mA/g and 800 mA/g. (b) Galvanostatic charge and discharge profile of P@GN anode at 200 mA/g. (c) The HAADF-STEM image and the corresponding EDS maps of a P@GN nanosheet at the desodiated state (after 120 cycles). (d) Rate capabilities of P@GN and P NCs@G. (e) Nyquist plots and equivalent circuit model of P@GN and P NCs@G electrodes after 10 cycles at 0.1 A/g in the discharged state. 
 	
 \label{fig:4_2}}
@@ -142,7 +145,7 @@ In addition, the angle of low-frequency slope for P@GN (76.8 degrees) is steeper
 \begin{figure}  
 \centering
 \includegraphics[width=300pt,angle=0]{figures/figure4_3ab}
-\caption[{\em in situ} probing on P@GN SIB setup]
+\caption[{\it In situ} probing on P@GN SIB setup]
 {
 (a) Schematics of an individual P@GN nanosheet sodium ion battery device test performed by {\em in situ} TEM. 
 (b) TEM image of the SIB at initial stage. Scale bars: 100 nm.
@@ -157,7 +160,7 @@ For transferring process, a very thin layer of \ce{Na2O} was formed on the sodiu
 \begin{figure}  
 \centering
 \includegraphics[width=320pt,angle=0]{figures/figure4_3cd}
-\caption[{\em in situ} sodiation process of P@GN SIB]
+\caption[{\it In situ} sodiation process of P@GN SIB]
 {
  TEM image and SAED pattersn of the {\em in situ} SIB at (a) 15 s and (b) 120 s of sodiation during first discharging. Scale bars: 100 nm.
 \label{fig:4_3cd}}
@@ -176,7 +179,7 @@ The main phase of the sodiated anode material is identified to be \ce{Na3P} -- w
 
 \begin{figure}  
 \includegraphics[width=\textwidth,angle=0]{figures/figure4_3ef}
-\caption[{\em in situ} desodiation process on P@GN SIB]
+\caption[{\it In situ} desodiation process on P@GN SIB]
 {
   (a) 5 s and (b) 120 s of time-dependent TEM images of desodiation during 1st charging. Insets show the corresponding schematic atomic structures. The inset in (a) depicts the corresponding SAED pattern. Scale bars: 100 nm.
 \label{fig:4_3ef}}
@@ -202,7 +205,7 @@ Therfore, the irreversible structural failure and the presence of NaP (instead o
 The {\em in situ} experiment is consistent with the battery cycling performance and rate properties (Figure \ref{fig:4_2}c). \\
 
 \begin{figure}  
-\includegraphics[measuredwidth=\textwidth]{figures/figure4_4}
+\includegraphics[width=\textwidth]{figures/figure4_4}
 \caption[Raman spectra and DFT calculations]
 {
 (a) Raman spectra of red P, P NCs@G, and P@GN before and after sodiation. 
@@ -213,18 +216,42 @@ The {\em in situ} experiment is consistent with the battery cycling performance 
 
 It is believed that maintaining amorphous morphology of P during cycling is a key factor for ultrastable battery performance. 
 This is confirmed by the Raman spectroscopy presented in Figure \ref{fig:4_4}a. 
-Spectrum features of red P between $300~500 cm^{-1}$ can be attributed to P–P stretching bonds of P9 and P7 cages to establish pentagonal tubes in paired layers.
+Spectrum features of red P between $300-500 cm^{-1}$ can be attributed to P–P stretching bonds of P9 and P7 cages to establish pentagonal tubes in paired layers.
 
-%the rest part... 
-Compared with red P material, the present amorphous red phosphorus/graphene hybrid samples (before and after cycling) exhibited no Raman peaks natural for phosphorus; only two typical D- and G- band peaks peculiar to graphene were observed.\cite{Kim2013c} This indicates that a “butter-bread” P@GN paper consisting of amorphous P layers on the GN nanosheets’ was was well preserved during cycling. In addition, Raman spectra of various samples gave an additional evidence of the existence of stable P-C bonds after multiple cycles. As shown in Figure \ref{fig:4_4}a, a broad envelope centered at about $700 cm^-1$ for P@GN (marked as a red circle) is assigned to P-C bond stretching modes. After cycling, a stable P-C bond may exists, as depicted in Figure \ref{fig:4_4}a. The formation of coherent P-C bonds in the P@GN paper affords high capacity and cycling stability during the battery performance. In comparison, no broad peaks exist in P NCs@G and pure red P. Furthermore, compared with P NCs@G, P@GN reveals the G band shifted to a lower wavenumber ($1571 cm^-1$) due to the \pi-p* conjugation, further indicating that the formation of P-C bonds may take place. \\
-Finally, DFT calculations were performed to elucidate the role of N-doped graphene on the improvement of electrochemical performances of SIBs. There have been many reports on doped graphenes (GD) utilized as LIB and SIB anode materials.\cite{Yang2011c,Wen2014b,Wang2013h,Wang2012e,Wang2014f} Firstly, we calculated the adsorption energy of a Na ion on different graphene structures. For pristine graphene and graphitic (N1)-doped graphene, this value is positive (e.g. +0.50 eV for G). It demonstrates that both pure and N1-doped graphene make the Na adsorption energetically unfavorable, that is, these two structures deliver no capacity. In contrast, for other doping forms, such as N2-/N3-doping and P-doping, it becomes negative, making them very attractive anode candidates. Herein three types of doped graphene were taken into account; the corresponding Na absorption configurations on the GN surfaces are shown in Figure \ref{fig:4_4}b. Then we obtained their corresponding capacities based on the calculation of the maximum Na concentration. Pure graphene(G) does not have charge transfer, and hence the calculated capacity is idealy 0; while C46N3(GN) present 0.851 e charge transfer, and the calculated capacity is 373.3 mAh/g, which is 1.2 times of the capacity of hard carbon (300 mAh/g) in SIBs, suggesting that N- and P-doped graphenes can contribute to capacity in addition to their positive roles in electron transport. Furthermore, the above-mentioned three kinds of doped graphenes exhibited a relatively larger charge transfer from Na, for example, Na donates 0.853|e| charge to graphene in C46N3. This further suggests that doping sites can have high efficiency to enhance the interaction between Na and graphene surface, leading to ultrafast sodium storage. The high rate capability of the doped graphene was also supported by the density of states calculations (Figures \ref{fig:4_4}c-d). For instance, doping with nitrogen makes C46N3 metallic. Above all, from the theoretical point of view, N-doped graphene is favorable for fast electron/ion transfer, superior rate capability, high capacity, and long cycling life for SIBs.
+%Rewrite rest part on Jan 03 by zc. 
+Compared with red P material, the amorphous phosphorusi and nitrogen doped graphene hybrid structure does not display Raman peaks natural for P, but show two typical D-band and G-band peaks (peculiar to graphene).\cite{Kim2013c} 
+The result indicates that the layerd P@GN paper was maintained during cycling. 
+Additionally, Raman spectra of various samples provide more evidences for existence of the stable P-C bonds after multiple cycles. 
+In Figure \ref{fig:4_4}a, a broad envelope centered at about $700 cm^-1$ for P@GN, which is marked by red circle, could be attributed to P-C bond stretching modes. 
+Therefore, stable P-C bond may exists after cycling as shown in Figure \ref{fig:4_4}a. 
+
+Last but not least, DFT simmulations were calculatted to reveal the function of N-doped graphene for battery performance of SIB. 
+Some publications on doped graphenes used as LIB and SIB anode material.\cite{Yang2011c,Wen2014b,Wang2013h,Wang2012e,Wang2014f} 
+First, the adsorption energy of a sodium ions on different graphene structures were calculated. 
+For graphene and N1 graphene, the value is positive at around +0.50 eV. 
+This means both graphene and N1 graphene are unfavorable of sodium absorption, and in hence deliver no capaciy to the battery. 
+For N2 and N3 doped and P doping, the absorption energy turns to be negative. 
+The negative energy value means the material is attractive for sodium absorption. 
+The corresponding sodium absorption energy on GN surfaces are illustrated in Figure \ref{fig:4_4}b. 
+Then, the corresponding capacities based on the simulation of the maximum sodium concentration are calculated. 
+It is acknowledged that graphene is not conductive, and hence the theoratical capacity is exactly zero.
+\ce{C46N3} holds 0.851 e charge transfer, and a capacity at 373.3 mAh/g. This value is 1.2 times of the capacity of hard carbon at 300 mAh/g, suggesting that N and P doped graphenes are cadidates for modern anode materials due to their positive roles in electron transport. 
+
+All three kinds of doped graphenes show larger charge transfer from sodium.
+For instance, sodium donates 0.853 e charge to \ce{C46N3}. 
+It implies that doping sites could provide high efficiency to improve the interaction between sodium and G surface for future sodium ion storage. 
+The high rate capability of the N-doped graphene is also supported by the density of states simulations as shown in Figure \ref{fig:4_4}c-d, N dopping makes \ce{C46N3} metallic. 
+As a consequence, theoretically, N doped graphene is favorable for electron and ion transfer, high rate capability, decent capacity, and long battery lifetime for SIB.
 
 \section{Conclusions}
-In summary, we designed a "phase-transformation" route to fabricate a doped graphene-phosphorous structures with layered morphologies in which very thin amorphous red P layers are formed within flexible and conductive N-doped graphene frameworks. Advantages of such SIB anode designs have been proved experimentally, they are namely: \\
-(1) By spreading amorphous P to form a thin P layer on the doped graphene instead of crystalline P nanoparticles, the P@GN anode shows ultrastable efficiency (0.002\% decay per cycle from 2nd to 350th cycle) and excellent rate capability (809 mAh/g at 1500 mA/g); \\
-(2) The expected P-C chemical bonds are detected, which firmly anchor GN and P layers; \\
-(3) In situ HRTEM experiments on a prototype P@GN-based nanobattery device further verified its ultrastable performance and high capacity of P@GN entirely sustained during sodiation.\\
-Finally, DFT calculations reveal that doping sites can enhance the interactions between Na and graphene surface, leading to ultrafast sodium energy storage. Our work demonstrates that the designed flexible amorphous P@N-doped graphene structure prepared from a "phase-transformation" approach can greatly improve the cycling and rate performances for future sodium storage. 
+To sum up, I applied phase-transformation approach to fabricate nitrogen doped graphene-phosphorous structure with layered morphologies where thin amorphous phosphorous layers are formed within flexible and electrical conductive N-doped graphene structures. 
+Advantages of the as-designed anode material have been studied by various characterizations, device tests, {\em in situ} microscopy and theoretical calculations. 
+These advantages are namely: \\
+(1) Thin P layer on the doped graphene (instead of crystalline P) anode shows ultrastable efficiency of 0.002\% decay per cycle and good rate capability of 809 mAh/g at 1500 mA/g; \\
+(2) P-C stable bonds may exist to bond GN and P layers; \\
+(3) {\em In situ} HRTEM experiments verified and reveals the reason of its ultrastable performance.\\
+
+%Finally, DFT calculations reveal that doping sites can enhance the interactions between Na and graphene surface, leading to ultrafast sodium energy storage. Our work demonstrates that the designed flexible amorphous P@N-doped graphene structure prepared from a "phase-transformation" approach can greatly improve the cycling and rate performances for future sodium storage. 
 
 
 
