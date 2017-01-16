@@ -33,7 +33,7 @@
 \RequirePackage[tight,nice]{units}
 \RequirePackage{verbatim}
 \usepackage{xspace}
-\RequirePackage{mhchem} %for chemistry cccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+\RequirePackage{mhchem} %for chemistry zcccccccccccccccccccccccccccccccccccccccccccccccccccccccc
 
 % colors
 \RequirePackage{color}
@@ -50,17 +50,17 @@
 
 \RequirePackage{pdfsync} %do pdf synchronization [andy]
 
-\usepackage[closeFloats, noSeparatorLine]{fltpage} %use the custom modified fltpage package
+%\usepackage[closeFloats, noSeparatorLine]{fltpage} %use the custom modified fltpage package
 \RequirePackage{afterpage} 
 
-\synctex=1 % turn synctex on automatically to sync between pdf viewer [andy]
+%\synctex=1 % turn synctex on automatically to sync between pdf viewer [andy]
 
 %   list an entire bibliography entry inline. Useful for acknowledging when my paper was previously published
 \RequirePackage{bibentry} 
 \nobibliography*        
 
 \RequirePackage{lettrine} % big letter at start of chapter
-% tsukuba university cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+% tsukuba university margins zcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
 \RequirePackage[headheight=10mm, top=40mm, bottom=28mm, inner=28mm,outer=22mm, a4paper]{geometry}
 
 \RequirePackage{fancyhdr} 
@@ -136,10 +136,10 @@ BoldItalicFont=ArnoPro-BoldItalic
     \vspace*{\fill}
     \centering
     \LARGE \textcolor{black}{\thetitle} \Large \\ %\sc 
-    \vspace{60pt}
+    \vspace{80pt}
 	%a dissertation presented \\ by\\
 	\theauthor\\ %to\\ The \@department\\ 
-	\vspace{270pt}
+	\vspace{300pt}
 	%in partial fulfillment of the requirements\\ 
 	%for the degree of\\ \@degree\\ 
 	%in the subject of\\ \@field\\
@@ -151,15 +151,15 @@ BoldItalicFont=ArnoPro-BoldItalic
  \clearpage
     \vspace*{\fill}
 	\LARGE \textcolor{black}{\thetitle} \Large \\ %\sc 
-	\vspace{60pt}
+	\vspace{80pt}
 	\theauthor\\ %to\\ The \@department\\ 
 	%\vspace{12pt}
 	(Doctoral Program in \@field)\\
-	\vspace{150pt}
+	\vspace{200pt}
 	Submitted to the Graduate School of\\
 	\@department\\
 	in Partial Fulfillment of the Requirements\\
-	for the Degree of \@degree in\\
+	for the Degree of \@degree{ }in\\
 	\@field\\
 	\vspace{30pt}
 	at the\\
@@ -168,22 +168,23 @@ BoldItalicFont=ArnoPro-BoldItalic
 }
 
 \newcommand{\copyrightpage}{
-    \doublespace 
+    \onehalfspacing 
 	\newpage \thispagestyle{empty} \vspace*{\fill}
 	%\sc 
 	\raggedright
 	\noindent \copyright~\textit{\@degreeyear \hspace{3pt} \textcolor{Red}{\theauthor}} \\
-	%\noindent All rights reserved.\\[10ex]
+	\noindent All rights reserved.\\[40ex]
 	\input{frontmatter/copyrightpage}
 	\vspace*{\fill} \newpage \rm
+
+
 }
 
 \newcommand{\abstractpage}{
 	\chapter*{Abstract}
-	\pagenumbering{roman}
-	\setcounter{page}{5}
+
 	\pagestyle{fancy}
-	\lhead{Thesis advisor: Prof. \@advisor} \rhead{ \@author}
+	\lhead{\footnotesize \it Thesis advisor: Prof. \@advisor} \rhead{\footnotesize \it \@author}
     %\setlength{\headheight}{20pt}     %fixed problem Sept14 for headlight % delete this line to fix margin problem Jan12
 	\renewcommand{\headrulewidth}{0pt} 
 	\begin{center}
@@ -201,9 +202,9 @@ BoldItalicFont=ArnoPro-BoldItalic
 }
 
 \newcommand{\dedicationpage}{
-	\pagestyle{fancy}
+	\pagestyle{empty}
 	\doublespace 
-	\newpage \thispagestyle{fancy} \vspace*{\fill}
+	\newpage  \vspace*{\fill}
 	\sc \noindent \input{frontmatter/dedication}
 	\vspace*{\fill} \newpage \rm
 	}
@@ -226,8 +227,7 @@ BoldItalicFont=ArnoPro-BoldItalic
 	\input{frontmatter/thanks}
 	\vspace*{\fill} 
 	\newpage
-	\setcounter{page}{1}
-	\pagenumbering{arabic}}
+    }
 	
 % An environment for paragraph-style section
 \providecommand\newthought[1]{%
