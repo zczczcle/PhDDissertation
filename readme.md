@@ -1,17 +1,18 @@
-# My PhD_Dissertation Trace Repo
+# My PhD_Dissertation 
 
-Professor asked me to finish PhD dissertation before mid-Nov. 
-> Work hard on your thesis.  
->         --Prof. Golberg
-
-So, in this *PRIVATE* repo, my PhD Dissertation will be traced. 
+Here is my PhD dissertation \LaTeX source. 
+Please note that many of the codes are not written by me but from other open-sources. 
+https://github.com/suchow/Dissertate
+https://github.com/kks32/phd-thesis-template
+https://github.com/cambridge/thesis
 
 ##*Why* I put things here? 
-1. I can trace my progress from contributions and Graphs>Punch card. 
-2. History function. 
+1. I can trace my progress by the user-friendly Github. 
+2. I would like to make it open-source, which might benefit others. 
 3. It's saved in reliable cloud. `not onedrive`
 
-##What I may/shoud do here
+##Make use of it
+If you would like to make use of some part of it, especially if you are a PhD student from University of Tsukuba, you are encouraged to do so once you agree these statements: 
 1.  Paste tex files here everyday as a 'call it a day'. 
 2.  Trace my updates. 
 3.  Download or export things from here. 

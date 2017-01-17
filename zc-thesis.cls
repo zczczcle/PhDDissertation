@@ -12,7 +12,8 @@
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesClass{zc-thesis}
 \LoadClass[12pt, twoside, a4paper,openright]{book}
-
+%\RequirePackage{xeCJK} %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Japanese pakage - zc
+%\setCJKmainfont{AozoraMinchoRegular.ttf} %%%%%%%%%%%%%%%%%%%% Japanese font -zc
 
 % Required packages
 \RequirePackage{graphicx}
@@ -26,6 +27,7 @@
     urlcolor=Red,
 }
 
+
 \RequirePackage[centertags]{amsmath}
 \RequirePackage{amssymb}
 \RequirePackage[numbers, comma, sort&compress]{natbib}
@@ -34,6 +36,8 @@
 \RequirePackage{verbatim}
 \usepackage{xspace}
 \RequirePackage{mhchem} %for chemistry zcccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+\RequirePackage{hyperxmp}  % for xmp copyright
+
 
 % colors
 \RequirePackage{color}
@@ -45,7 +49,7 @@
 \renewcommand{\cftchapfont}{\normalsize \scshape}
 
 \renewcommand\bibname{References}
-\renewcommand\listfigurename{Listing of figures}
+\renewcommand\listfigurename{List of figures}
 \raggedright
 
 \RequirePackage{pdfsync} %do pdf synchronization [andy]
@@ -173,7 +177,7 @@ BoldItalicFont=ArnoPro-BoldItalic
 	%\sc 
 	\raggedright
 	\noindent \copyright~\textit{\@degreeyear \hspace{3pt} \textcolor{Red}{\theauthor}} \\
-	\noindent All rights reserved.\\[40ex]
+	\noindent Some rights reserved.\\[40ex]
 	\input{frontmatter/copyrightpage}
 	\vspace*{\fill} \newpage \rm
 
