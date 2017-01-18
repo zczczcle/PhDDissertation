@@ -209,7 +209,10 @@ BoldItalicFont=ArnoPro-BoldItalic
 	\pagestyle{empty}
 	\doublespace 
 	\newpage  \vspace*{\fill}
-	\sc \noindent \input{frontmatter/dedication}
+	\sc \noindent \centering 
+	\begin{minipage}{25em}
+	\input{frontmatter/dedication}
+	\end{minipage}
 	\vspace*{\fill} \newpage \rm
 	}
 
