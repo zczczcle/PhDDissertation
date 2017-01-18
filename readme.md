@@ -1,26 +1,21 @@
 # My PhD_Dissertation 
 
-Here is my PhD dissertation \LaTeX source. 
-Please note that many of the codes are not written by me but from other open-sources. 
-https://github.com/suchow/Dissertate
-https://github.com/kks32/phd-thesis-template
+Here is my PhD dissertation \LaTeX source under GNU Public licence. 
+Please note that many of the codes are not written by me but from other open-sources. \\
+https://github.com/suchow/Dissertate\\
+https://github.com/kks32/phd-thesis-template\\
 https://github.com/cambridge/thesis
 
 ##*Why* I put things here? 
 1. I can trace my progress by the user-friendly Github. 
 2. I would like to make it open-source, which might benefit others. 
-3. It's saved in reliable cloud. `not onedrive`
+3. It's saved in reliable Git cloud. `I hate MS Office and Onedrive because they lose my documents.`
 
 ##Make use of it
-If you would like to make use of some part of it, especially if you are a PhD student from University of Tsukuba, you are encouraged to do so once you agree these statements: 
-1.  Paste tex files here everyday as a 'call it a day'. 
-2.  Trace my updates. 
-3.  Download or export things from here. 
-
-##What I don't do here
-1. Figures (Prepare original ai/svg/wmf and exported pdf)
-2. Formats (Do it in ShareLatex, or Microsoft Word)
-3. References.bib (BibTex file can be exported by Mendeley!)
+If you would like to make use of some \LaTeX source codes of it, especially if you are a PhD student from University of Tsukuba, you are encouraged to use it only when you agree these statements: 
+1.  You also follow GNU Public licencing. 
+2.  I am not responsible for any problem of your dissertation. 
+3.  I am willing to help with your problems, but I may refuse your request. 
 
 -------------
 TedZ  
