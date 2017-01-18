@@ -135,6 +135,7 @@ BoldItalicFont=ArnoPro-BoldItalic
 % cover and inside cover for University of Tsukuba by zccccccccccccccccccccccccccccccccccccccccc
 %cover
 \renewcommand{\maketitle}{ 
+	\clearpage
 	\singlespacing
 	\pagestyle{empty}
     \vspace*{\fill}
@@ -150,9 +151,9 @@ BoldItalicFont=ArnoPro-BoldItalic
 	%\vspace{12pt}
 	%\@university\\ \@universitycity, \@universitystate\\ 
 	\@degreemonth\ \@degreeyear
- 
+ %\afterpage{\null\newpage} % to correct cover on the right.
  %inside cover
- \clearpage
+    \clearpage 
     \vspace*{\fill}
 	\LARGE \textcolor{black}{\thetitle} \Large \\ %\sc 
 	\vspace{80pt}
