@@ -151,7 +151,7 @@ BoldItalicFont=ArnoPro-BoldItalic
 	%\vspace{12pt}
 	%\@university\\ \@universitycity, \@universitystate\\ 
 	\@degreemonth\ \@degreeyear
- %\afterpage{\null\newpage} % to correct cover on the right.
+ \afterpage{\null\newpage} % to correct cover on the right.
  %inside cover
     \clearpage 
     \vspace*{\fill}
@@ -159,13 +159,13 @@ BoldItalicFont=ArnoPro-BoldItalic
 	\vspace{80pt}
 	\theauthor\\ %to\\ The \@department\\ 
 	%\vspace{12pt}
-	(Doctoral Program in \@field)\\
+	Doctoral Program in \@field\\
 	\vspace{200pt}
 	Submitted to the Graduate School of\\
 	\@department\\
 	in Partial Fulfillment of the Requirements\\
 	for the Degree of \@degree{ }in\\
-	\@field\\
+	Engineering\\    % change here if you are not in engineering
 	\vspace{30pt}
 	at the\\
 	\@university\\
@@ -214,7 +214,8 @@ BoldItalicFont=ArnoPro-BoldItalic
 	\begin{minipage}{25em}
 	\input{frontmatter/dedication}
 	\end{minipage}
-	\vspace*{\fill} \newpage \rm
+	\vspace*{\fill} \rm
+	\afterpage{\null\newpage} % to correct cover on the right.
 	}
 
 % the list of authors
