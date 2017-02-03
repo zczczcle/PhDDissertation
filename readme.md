@@ -1,26 +1,27 @@
 # My PhD_Dissertation 
 
-Here is my PhD dissertation \LaTeX source under GNU Public licence. 
-Please note that many of the codes are not written by me but from other open-sources. 
+Here is my PhD dissertation LaTeX source licenced by AGPL. 
+However, the real contents are licenced by CC 4.0 BY-SA. (And you should take care on the published results according to publishers' terms.)
+After my PhD dissertation is opened online by university, I will delete the main texts here. 
+Please note that some of the codes are not originally written by me, but from other open-sources. 
 
 https://github.com/suchow/Dissertate
 
 https://tex.stackexchange.com/
 
 ##*Why* I put things here? 
-1. I can trace my progress by the Github with full history. 
-2. I would like to make it open-source, which might benefit others. 
+I would like to make it open-source, which might save time for a student from University of Tsukuba. 
+
 
 ##Make use of it
-If you would like to make use of some \LaTeX source codes of it, especially if you are a PhD student from University of Tsukuba, you are encouraged to use it only when you agree these statements: 
+If you would like to make use of some LaTeX source codes of it, especially if you are a PhD student from University of Tsukuba, you are encouraged to use it only when you agree these statements: 
 
-1.  You also follow GNU Public licencing. 
+1.  You also follow AGPL. 
 2.  I am not responsible for any problem of your dissertation. 
-3.  I am willing to help you, but I may refuse your request. 
 
 -------------
 TedZ  
 2016Aug31  
-[My personal website](chaozhang.webs.com)  
+Tsukuba, Japan
 ![ZC icon](http://chaozhang.webs.com/Capture.JPG)
 
