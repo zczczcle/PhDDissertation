@@ -1,4 +1,4 @@
-# My PhD_Dissertation 
+# PhD_Dissertation for University of Tsukuba
 
 Here is my PhD dissertation LaTeX source licenced by AGPL. 
 However, the real contents are licenced by CC 4.0 BY-SA. (And you should take care on the published results according to publishers' terms.)
@@ -9,7 +9,7 @@ https://github.com/suchow/Dissertate
 
 https://tex.stackexchange.com/
 
-##*Why* I put things here? 
+##Why I put things here? 
 I would like to make it open-source, which might save time for a student from University of Tsukuba. 
 
 
