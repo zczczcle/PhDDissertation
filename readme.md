@@ -10,8 +10,7 @@ https://github.com/suchow/Dissertate
 https://tex.stackexchange.com/
 
 ##Why I put things here? 
-I would like to make it open-source, which might save time for a student from University of Tsukuba. 
-
+I would like to (and I have to because I used AGPL source from suchow) make it open-source, which might save time for a student from University of Tsukuba. 
 
 ##Make use of it
 If you would like to make use of some LaTeX source codes of it, especially if you are a PhD student from University of Tsukuba, you are encouraged to use it only when you agree these statements: 
