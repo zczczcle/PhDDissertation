@@ -5,7 +5,7 @@
 %     date            = "Feb 2017",
 %     codetable       = "ISO/ASCII",
 %     keywords        = "LaTeX, zc-thesis",
-%     supported       = "send email to zcelysium@gmail.com",
+%     contact       = "send email to zcelysium@gmail.com",
 %     docstring       = "A thesis class for a zc's dissertation."
 % --------------------------------------------------------------------
 
@@ -64,8 +64,8 @@
 \nobibliography*        
 
 \RequirePackage{lettrine} % big letter at start of chapter
-% tsukuba university margins zcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
-\RequirePackage[headheight=10mm, top=40mm, bottom=28mm, inner=28mm,outer=22mm, a4paper]{geometry}
+% tsukuba university margins, it passed the office check, but I am not sure if you also pass the check! Sometimes they just want you find you some job, and make you run over and over... -zc
+\RequirePackage[headheight=10mm, top=40mm, bottom=28mm, inner=30mm,outer=20mm, a4paper]{geometry}
 
 \RequirePackage{fancyhdr} 
 \pagestyle{plain} % options: empty , plain , fancy
@@ -74,7 +74,7 @@
 \RequirePackage{titling}
 \RequirePackage{setspace} 
 \RequirePackage{booktabs} % for much better looking tables
-\RequirePackage[labelfont={sf,bf,small},textfont={sf,small},justification=RaggedRight,margin=0pt, figurewithin=chapter, tablewithin=chapter]{caption} %chapter based figure numbering by zccccccccccccccccccccccccccccccccccccc
+\RequirePackage[labelfont={sf,bf,small},textfont={sf,small},justification=RaggedRight,margin=0pt, figurewithin=chapter, tablewithin=chapter]{caption} %chapter based figure numbering by zc
 \onehalfspacing
 %\raggedright
 
@@ -116,7 +116,8 @@ BoldFont=ArnoPro-Bold,
 ItalicFont=ArnoPro-Italic,
 BoldItalicFont=ArnoPro-BoldItalic
 ]{ArnoPro} %
-			
+
+%this part is not tested - zc			
 %Set fonts for Mac Specific (Comment out on Windows XP)
 %\setsansfont[Scale=MatchLowercase,Mapping=tex-text]{Helvetica Neue} 
 %\setmonofont[Scale=MatchLowercase]{Consolas}
@@ -132,7 +133,7 @@ BoldItalicFont=ArnoPro-BoldItalic
 \def\universitycity#1{\gdef\@universitycity{#1}}
 \def\universitystate#1{\gdef\@universitystate{#1}}
 
-% cover and inside cover for University of Tsukuba by zccccccccccccccccccccccccccccccccccccccccc
+% cover and inside cover for University of Tsukuba - zc
 %cover
 \renewcommand{\maketitle}{ 
 	\clearpage
@@ -165,7 +166,7 @@ BoldItalicFont=ArnoPro-BoldItalic
 	\@department\\
 	in Partial Fulfillment of the Requirements\\
 	for the Degree of \@degree{ }in\\
-	Engineering\\    % change here if you are not in engineering
+	Engineering\\    % change here if you are not in engineering, sorry for inconvience, just lazy.. -zc
 	\vspace{30pt}
 	at the\\
 	\@university\\
@@ -178,7 +179,7 @@ BoldItalicFont=ArnoPro-BoldItalic
 	%\sc 
 	\raggedright
 	\noindent \copyright~\textit{\@degreeyear \hspace{3pt} \textcolor{Red}{\theauthor}} \\
-	\noindent Some rights reserved.\\[40ex]
+	\noindent Some rights reserved.\\[40ex]                % you may change to all rights if you don't want CC4.0 -zc
 	\input{frontmatter/copyrightpage}
 	\vspace*{\fill} \newpage \rm
 
@@ -190,7 +191,7 @@ BoldItalicFont=ArnoPro-BoldItalic
 
 	\pagestyle{fancy}
 	\lhead{\footnotesize \it Thesis advisor: Prof. \@advisor} \rhead{\footnotesize \it \@author}
-    %\setlength{\headheight}{20pt}     %fixed problem Sept14 for headlight % delete this line to fix margin problem Jan12
+    %\setlength{\headheight}{20pt}     %fixed problem Sept14 for headlight % delete this line to fix margin problem Jan12 -zc
 	\renewcommand{\headrulewidth}{0pt} 
 	\begin{center}
 	\vspace*{1pt}
@@ -215,7 +216,7 @@ BoldItalicFont=ArnoPro-BoldItalic
 	\input{frontmatter/dedication}
 	\end{minipage}
 	\vspace*{\fill} \rm
-	\afterpage{\null\newpage} % to correct cover on the right.
+	\afterpage{\null\newpage} % to correct cover on the right. -zc
 	}
 
 % the list of authors
