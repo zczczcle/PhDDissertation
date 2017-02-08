@@ -16,11 +16,13 @@ I would like to (and I have to because I used AGPL source from suchow) make it o
 If you would like to make use of some LaTeX source codes of it, especially if you are a PhD student from University of Tsukuba, you are encouraged to use it only when you agree these statements: 
 
 1.  You also follow AGPL. 
+
 2.  I am not responsible for any problem of your dissertation, but I would like to help! 
 
 -------------
 TedZ  
-2016Aug31  
+2017Feb8
 Tsukuba, Japan
+
 
 ![ZC icon](http://chaozhang.webs.com/Capture.JPG)
